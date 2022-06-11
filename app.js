@@ -23,7 +23,7 @@ app.post("/", function (req, res) {
         res.write(`<p>The Weather in ${country} is: ${desc}</p>`);
         res.write(`<h1>The Temperature in ${country} is: ${temp} degree celcius</h1>`);
         res.write(`<img src=${icons} alt="weather icon">`);
-        res.write(`<button onclick="history.back()">Return home</button>`);
+        res.write(`<button onclick="history.back()">Return to homepage</button>`);
         res.send()
 
     })
